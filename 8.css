@@ -1,0 +1,364 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+.icon {
+    position: absolute;
+    right:50px;
+    font-size: 25px;
+}
+
+#i1 {
+    padding:3px 10px;
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    position: absolute;
+    right:400px;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+  
+}
+
+#navbar ul li a {
+    padding: 3px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#home-img {
+    height:300px;
+    width: 300px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    height: 250px;  
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-transparent-flow-blue-waves-blue-lines-vector-background_206325-741.jpg');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.89;
+}
+
+#home-head {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 220px;
+    top: 190px;
+}
+
+.home-box {
+    position: absolute;
+    left: 60px;
+    padding:20px 10px;
+}
+
+#home-para {
+    text-align: start;
+    width: 500px;
+}
+
+.h-11 {
+    font-size: 3.5rem;
+    padding: 17px;
+}
+
+.h-1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-decoration: underline #c0392b solid;
+    text-underline-offset: 10px;
+}
+
+#btn-1 {
+    margin: 25px;
+    padding:3px 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn-1:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#product {
+    height:370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 280px 3px;
+}
+
+.h-2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.product-head {
+    display: flex;
+    flex-direction: row;
+}
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid brown;
+    padding: 8px 8px;
+    margin: 10px;
+    border-radius: 20px;
+}
+ 
+
+#product-img {
+    height: 150px;
+    width:150px;
+}
+
+#about {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    align-items: center;
+}
+
+.about-head {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#about-imgi {
+    height: 400px;
+    width: 380px;
+    margin:20px;
+    border: 2px solid black;
+}
+
+.about-box {
+    padding: 10px 100px;
+    width: 550px;
+    font-size: 18px;
+}
+
+.h-3 {
+    font-size: 2.5rem;
+    padding: 20px 20px;
+    text-decoration: underline #c0392b solid;
+    text-underline-offset: 10px;
+}
+
+.h-4 {
+    text-align: start;
+    font-size: 27px;
+    padding:10px 10px;
+}
+
+#custom {
+    height:300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+}
+
+#custom::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1; 
+}
+
+#custom-head {
+    display: flex;
+    flex-direction: row;
+
+}
+.custom-box {
+    border:2px solid brown;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 23px;
+    width: 350px;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+#custom-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#btn-2 {
+    cursor :pointer;
+    padding: 3px 8px;
+    background-color: orange;
+    border-radius: 16px;
+    margin: 5px ;
+    font-size: 17px;
+}
+
+#btn-2:hover {
+    background-color: blueviolet;
+    color:white;
+}
+
+#service {
+    height: 300px;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-5 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline #c0392b solid;
+    text-underline-offset: 10px;
+}
+
+#service-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-box {
+    border: 2px solid red;
+    padding: 28px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:none;
+}
+
+#service-i {
+    font-size: 33px;
+    color:#c0392b;
+    padding: 10px 10px;
+}
+
+#h-6 {
+    padding:10px 10px;
+    font-size: 1.6rem;
+}
+
+#footer {
+    height:300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+}
+
+#footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#i0 {
+    padding:20px 10px;
+    font-size: 33px;
+}
+
+#i0:hover {
+    transform: translate(-5px, -10px);
+}
+
+#h-7 {
+    padding:10px 10px;
+    font-size: 22px;
+
+}
+
+.container>div>ul{ 
+    list-style: none; 
+}
+
+.container>div>ul>li {
+    cursor: pointer;
+    margin:16px 0px;
+}
+
+.container>div>ul>li>a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    left:0px;
+}
+ 
+
+.container>div>ul>li>a:hover {
+    bottom :8px;
+}
+
+#i0 {
+    color:black;
+}
